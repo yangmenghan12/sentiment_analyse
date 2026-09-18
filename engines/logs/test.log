@@ -1,0 +1,3 @@
+2026-07-04 09:10:08 | INFO | [test] __main__ - hello world
+2026-07-04 09:15:01 | WARNING | [test] __main__ - hello world
+2026-07-04 09:15:01 | ERROR | [test] __main__ - hello world
