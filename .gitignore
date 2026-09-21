@@ -3,3 +3,29 @@
 .idea/
 __pycache__/
 *.pyc
+
+# Local environment variables and secrets. Keep the shared template tracked.
+.env
+.env.*
+!.env.example
+
+# Python caches and test artifacts
+*.pyo
+*.pyd
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local editor settings
+.vscode/
+
+# Runtime output and local data stores
+data/report/
+logs/
+*.log
+*.sqlite
+*.sqlite3
